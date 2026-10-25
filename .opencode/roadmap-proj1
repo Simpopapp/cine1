@@ -2,8 +2,8 @@
 
 Precedência: escopo vem de `.opencode/project1.md`; o "como" vem de `.opencode/prd-project1.md`. N=1.
 
-- [ ] **Fase 0 — Fundação criativa (roteiro + locks)** — subagente `fundacao-roteiro` produz `.opencode/work/producao/v1/roteiro.md`: logline, sinopse, 20 beats na ordem da música (PRD §2/§3.2), Style Lock String, Character Locks, locações; registro de fidelidade = ponto 3.
-  - Gates: 20 beats em ordem musical; locks completos (meio+paleta+luz+textura+referência+mood+trava anti-ilustração); sem vocabulário de key art.
+- [x] **Fase 0 — Fundação criativa (roteiro + locks)** — subagente `fundacao-roteiro` produziu `.opencode/work/producao/v1/roteiro.md`: logline, sinopse, 20 beats na ordem da música (PRD §2/§3.2), Style Lock String, Character Locks, locações; registro de fidelidade = ponto 3. Gravação aplicada pelo principal (subagente somente leitura; PRD §7).
+  - Gates: VERDE — 20 beats em ordem musical; locks completos; sem vocabulário de key art (auto-checagem do subagente confirmada na leitura do principal).
   - Subagentes: fase-0/1 · reports: report-1.md
 - [ ] **Fase 1 — Prompts de imagem e vídeo** — subagente `roteirista-prompts` produz `prompts-imagem.md` (20×150–250 palavras, ordem fixa, locks verbatim) e `prompts-video.md` (20×10s, ~120–200 palavras) em `.opencode/work/producao/v1/`.
   - Gates: Style Lock verbatim nos 20 finais; Character Locks verbatim onde presente; auditorias 6–8 registradas; teste "capa de livro" negativo em todos.
