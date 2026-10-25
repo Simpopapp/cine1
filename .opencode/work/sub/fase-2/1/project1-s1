@@ -1,0 +1,11 @@
+# project1-s1 — Geração de imagens c01–c05 (Fase 2, pacote 1)
+
+**Recorte exclusivo:** gerar as imagens das cenas 1 a 5 (`src/assets/v1/c01.png` … `c05.png`), usando os prompts da Fase 1.
+
+**Fonte dos prompts:** `.opencode/work/producao/v1/prompts-imagem.md` (leituras obrigatórias: também `.opencode/work/producao/v1/roteiro.md` para contexto dos beats).
+
+**Parâmetros fixos por imagem:** tool `imagegen--generate_image`; `model: "premium.gemini"`; `width: 1920`; `height: 1088`; `target_path: "src/assets/v1/c{NN}.png"`; `prompt` = o prompt completo da cena correspondente (o texto integral, incluindo Character Locks e Style Lock no fim — nunca resumir, parafrasear ou omitir os locks).
+
+**Lotes:** máximo de 4 gerações por resposta; aguardar o resultado de cada lote antes do próximo (5 cenas = lote de 4 + lote de 1).
+
+**Critérios de aceite:** ver `prd-project1-s1` (mesmo diretório).

@@ -1,0 +1,16 @@
+# prd-project1-s3 — Geração de imagens c11–c15 (Fase 2, pacote 3)
+
+**Como executar:**
+1. Leia `.opencode/work/producao/v1/prompts-imagem.md` e use SOMENTE os prompts das cenas 11–15 (seu recorte; donos das outras cenas são os pacotes 1, 2 e 4 desta fase).
+2. Para cada cena, dispare `imagegen--generate_image` com os parâmetros fixos de `project1-s3`, colando o prompt integral da cena (incluindo os Character Locks e o Style Lock verbatim no fim).
+3. Máximo de 4 gerações por resposta; espere os resultados antes do lote seguinte.
+4. Confira no disco: `src/assets/v1/c11.png` … `c15.png` existem e são PNGs válidos.
+5. Grave `.opencode/work/sub/fase-2/3/report-3.md` (formato fixo), citando para cada cena: caminho gravado, prompt usado (identificador cNN), resultado da ferramenta.
+
+**Critérios de aceite:**
+- 5 PNGs reais em disco (c11..c15), 1920×1088, todos gerados com `premium.gemini`.
+- Prompt usado = texto integral da Fase 1, sem reescrita estética por conta do gerador.
+- Nenhuma cena fora do recorte; nenhum código, rota ou dado criado; nenhum arquivo de outro subagente editado.
+- Se a sandbox não permitir chamar a ferramenta de imagem, NÃO tente alternativa: registre a falha com a evidência exata no relatório e entregue o relatório — o principal redistribui.
+
+**Gates:** os 5 arquivos existem e são válidos; relatório com evidências por cena.
