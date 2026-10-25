@@ -143,7 +143,7 @@ export const v1VideoPrompts: V1VideoPrompt[] = [ /* 20 itens, 10s cada */ ];
 
 ## 7. Registro de intervenções do principal
 
-(vazio — registrar aqui qualquer conserto mecânico de integração, com motivo e diff.)
+- **2026-10-25 · Fase 0:** subagente `fundacao-roteiro` (sub_f6g4yrb7) é somente leitura na sandbox e não pôde gravar os 2 arquivos do recorte; o principal aplicou as substituições integrais entregues pelo subagente em `.opencode/work/producao/v1/roteiro.md` e `.opencode/work/sub/fase-0/1/report-1.md` (integração mecânica, conteúdo 100% do subagente). Instrução adicionada às próximas ondas: subagentes devem tentar gravar e, se a sandbox impedir, entregar conteúdo integral na resposta final para aplicação pelo principal.
 
 ## 8. Riscos e mitigação
 
