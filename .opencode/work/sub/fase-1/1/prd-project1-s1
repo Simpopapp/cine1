@@ -1,0 +1,19 @@
+# prd-project1-s1 — Roteirista de prompts (Fase 1, pacote 1)
+
+**Como executar:**
+1. Leia `.opencode/work/producao/v1/roteiro.md` (Fase 0) e a skill `.workspace/skills/nova-sessao-aka-cine/SKILL.md` (etapas 5 e 7, mais a seção "Registro de Fidelidade" e "Auto-checagem antes de gerar imagens").
+2. Para CADA uma das 20 cenas, decida individualmente (não como lote): qual enquadramento a emoção do beat pede (não repetir enquadramento em cenas seguidas), ação capturada no meio de um movimento, imperfeições físicas de captura (ISO/noise, focus roll-off, halation, motion blur, sombras densas ilegíveis), referência de filme real específico para cenas difíceis.
+3. Escreva os 20 prompts de imagem (150–250 palavras, ordem fixa de `project1-s1`), terminando com o Style Lock verbatim do roteiro.
+4. Escreva os 20 prompts de vídeo de 10s com micro-eventos datados (second 2 / 6 / 9) e Style Lock verbatim no fim.
+5. Rode a auto-checagem da skill (itens 1–8): locks verbatim nos 20, auditoria de Registro de Fidelidade (mesmo ponto do eixo nos 20 — especialmente cenas de pico emocional), teste "5 filmes diferentes", teste "capa de livro". Reescreva o que falhar até passar.
+6. Grave os 2 arquivos e o relatório `.opencode/work/sub/fase-1/1/report-1.md` (formato fixo), incluindo o resultado da auto-checagem item a item.
+
+**Critérios de aceite:**
+- 20 prompts de imagem (150–250 palavras) e 20 de vídeo (~120–200 palavras), numerados c01..c20 na ordem dos beats do roteiro.
+- Style Lock verbatim idêntico nos 40 prompts (20 imagem + 20 vídeo).
+- Character Locks verbatim em toda cena onde o personagem aparece.
+- Nenhuma frase de preset ("cinematic, 4k, photorealistic, ultra-detailed") como estética; nenhum vocabulário de key art; nenhuma cena que sirva de capa de livro/poster.
+- Cenas de pico emocional mantêm a cadeia de captura das cenas mundanas.
+- Não gera imagens, não cria código, não edita rotas: só os 3 arquivos do recorte (prompts-imagem.md, prompts-video.md, report-1.md).
+
+**Gates:** auto-checagem da skill 100% verde registrada no relatório; contagem de palavras dentro das faixas.
