@@ -1,0 +1,9 @@
+# roadmap-proj1-s1 — Roteirista de prompts (Fase 1, pacote 1)
+
+- [ ] Ler roteiro da Fase 0 (.opencode/work/producao/v1/roteiro.md) e a skill nova-sessao-aka-cine (etapas 5 e 7 + Registro de Fidelidade + auto-checagem).
+- [ ] Escrever os 20 prompts de imagem (ordem fixa, locks verbatim) em prompts-imagem.md.
+- [ ] Escrever os 20 prompts de vídeo de 10s em prompts-video.md.
+- [ ] Rodar auto-checagem da skill (itens 1–8) e reescrever falhas até passar.
+- [ ] Gravar report-1.md com a auto-checagem item a item.
+
+Próximo consumidor: subagentes da Fase 2 (geração das imagens). Não iniciar a Fase 2.

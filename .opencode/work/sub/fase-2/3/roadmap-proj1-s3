@@ -1,0 +1,9 @@
+# roadmap-proj1-s3 — Geração de imagens c11–c15 (Fase 2, pacote 3)
+
+- [ ] Ler prompts-imagem.md (Fase 1) e roteiro.md (contexto dos beats 11–15).
+- [ ] Gerar c11–c14 (lote 1) com premium.gemini, 1920×1088, em src/assets/v1/.
+- [ ] Gerar c15 (lote 2) com os mesmos parâmetros.
+- [ ] Conferir os 5 PNGs em disco.
+- [ ] Gravar report-3.md com evidências por cena.
+
+Não tocar em c01–c10 e c16–c20, código, dados ou rotas. Não iniciar a Fase 3.

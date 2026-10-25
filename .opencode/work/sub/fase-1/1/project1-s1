@@ -1,0 +1,11 @@
+# project1-s1 — Roteirista de prompts (Fase 1, pacote 1)
+
+**Recorte:** produzir os 20 prompts de imagem e os 20 prompts de vídeo de 10s da sessão aka-cine v1, a partir do roteiro aprovado da Fase 0 (`.opencode/work/producao/v1/roteiro.md`).
+
+**Saídas (2 arquivos):**
+1. `.opencode/work/producao/v1/prompts-imagem.md` — 20 prompts numerados (c01..c20), cada um 150–250 palavras em inglês, na ordem fixa: (1) shot type + movimento de câmera implícito; (2) sujeito + ação específica do beat; (3) cenário com 3+ elementos ambientais específicos; (4) props/destalhes contextuais; (5) iluminação específica desta cena; (6) Character Lock String(s) verbatim se o personagem aparece; (7) Style Lock String verbatim sempre por último.
+2. `.opencode/work/producao/v1/prompts-video.md` — 20 prompts numerados (c01..c20) de 10 segundos (~120–200 palavras cada), descrevendo o movimento a partir da imagem da cena: movimento de câmera com tempo, micro-eventos por segundo (~2s/~6s/~9s), continuidade emocional com a cena anterior/seguinte, iluminação dinâmica, som implícito, Style Lock verbatim no fim.
+
+**Vinculação:** cada prompt cobre o beat homônimo do roteiro da Fase 0; os locks vêm do roteiro e são colados VERBATIM (nenhuma paráfrase entre cenas).
+
+**Critérios de aceite:** ver `prd-project1-s1` (mesmo diretório).

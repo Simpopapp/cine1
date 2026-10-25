@@ -1,0 +1,12 @@
+# project1-s2 — Correção de prompts (Fase 1, pacote 2)
+
+**Recorte exclusivo:** corrigir os comprimentos dos prompts entregues pelo pacote fase-1/1, sem trocar a direção criativa.
+
+**Evidência da falha (auditoria do principal):**
+- Prompts de imagem: 131–149 palavras (exigido 150–250) — TODOS os 20 abaixo do mínimo.
+- Prompts de vídeo: 70–83 palavras (exigido ~120–200) — TODOS os 20 abaixo do mínimo.
+- Aprovado na auditoria: Style Lock verbatim no fim de todos os 40; Character Locks verbatim onde o personagem aparece; nenhum vocabulário de key art; registros de fidelidade coerentes.
+
+**Saídas:** `.opencode/work/producao/v1/prompts-imagem.md` e `.opencode/work/producao/v1/prompts-video.md` atualizados (versão integral, mesmo formato: "## cNN" + corpo + locks) e `.opencode/work/sub/fase-1/2/report-2.md`.
+
+**Critérios de aceite:** ver `prd-project1-s2` (mesmo diretório).

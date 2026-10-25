@@ -1,0 +1,18 @@
+# project1-s1 — Fundação criativa (Fase 0, pacote 1)
+
+**Recorte:** produzir a fundação criativa da sessão aka-cine v1 — roteiro completo do videoclipe + locks — em `.opencode/work/producao/v1/roteiro.md`.
+
+**O quê (a partir de project1.md):** a música "Cinematic Hip-Hop" (letra completa com tags de produção no pilar central) vira 20 beats cinematográficos na ordem exata das seções musicais. Temas: crítica à avaliação escolar, Inteligência Cristalizada vs. Inteligência Fluida, dúvida vulnerável na bridge, veredito no finale.
+
+**Saída única:** `.opencode/work/producao/v1/roteiro.md` contendo, nesta ordem:
+1. Logline (1 frase).
+2. Sinopse (~150 palavras, 3 atos).
+3. Registro de Fidelidade declarado: ponto 3 do eixo (cinema fotorrealista com VFX integrados), com 1 parágrafo justificando.
+4. Style Lock String final (bloco único em inglês, 60–120 palavras, codificando: meio live-action fotorrealista; câmera Arri Alexa 35 + lentes Panavision anamórficas vintage; 2.39:1; paleta deep teal-cyan #1a3a4a nas sombras / sodium-vapor amber #d68a3a nas altas-luzes; naturalistic motivated lighting com práticas hard sources; 35mm halation + fine grain; referência nominal de diretor/DOP; trava anti-ilustração "no illustration, no painted look, no concept-art rendering"; mood de 1–2 palavras).
+5. Character Lock Strings (inglês, 25–40 palavras cada): o MC (protagonista performático — incluir presença de palco e entrega vocal) + 1 a 3 personagens recorrentes (aluno, engenheiro, figuras do sistema de avaliação).
+6. Locações (3–6, com especificidade física).
+7. Tabela dos 20 beats: colunas = nº · seção musical ([Intro], [Verse 1], [Chorus], [Verse 2], [Pre-Chorus], [Climax], [Bridge], [Outro] etc.) · o que acontece · onde · quem · emoção · mudança vs. beat anterior.
+
+**Vinculação obrigatória:** os 20 beats seguem a tabela de mapeamento música→narrativa do PRD central (seção 2) e a adaptação para videoclipe (seção 3.2) — cenas de performance do MC intercaladas com cenas conceituais (sala de prova, engenheiro no canteiro, imprevisto, lousa, boletim, "(acorda.)").
+
+**Critérios de aceite (compartilhados com prd-project1-s1):** ver nesse arquivo.
