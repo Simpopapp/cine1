@@ -1,0 +1,9 @@
+# roadmap-proj1-s2 — Correção de prompts (Fase 1, pacote 2)
+
+- [ ] Ler as versões atuais de prompts-imagem.md e prompts-video.md + a skill (auto-checagem).
+- [ ] Expandir os 20 prompts de imagem para 150–250 palavras, preservando conteúdo e locks verbatim.
+- [ ] Expandir os 20 prompts de vídeo para 120–200 palavras, preservando conteúdo e locks verbatim.
+- [ ] Recontar e rodar a auto-checagem da skill (1–8) até passar.
+- [ ] Gravar report-2.md com a nova contagem por cena e a auto-checagem item a item.
+
+Próximo consumidor: subagentes da Fase 2 (geração). Não iniciar a Fase 2.

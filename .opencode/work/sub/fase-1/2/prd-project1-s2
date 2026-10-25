@@ -1,0 +1,17 @@
+# prd-project1-s2 — Correção de prompts (Fase 1, pacote 2)
+
+**Como executar:**
+1. Leia a versão atual de `.opencode/work/producao/v1/prompts-imagem.md` e `prompts-video.md` (produzida pelo pacote fase-1/1) e a skill `.workspace/skills/nova-sessao-aka-cine/SKILL.md`.
+2. EXPANDA cada prompt de imagem para 150–250 palavras (hoje: 131–149) e cada prompt de vídeo para 120–200 palavras (hoje: 70–83), PRESERVANDO o conteúdo existente: mesma câmera, ação, cenário, iluminação e referências — a expansão acrescenta especificidade física e de captura (evidência de câmera real: noise por ISO, focus roll-off, halation, motion blur, sombras densas ilegíveis, imperfeição de pele/ambiente, micro-eventos adicionais datados nos prompts de vídeo), nunca vocabulário de key art ou preset genérico.
+3. NÃO altere o Style Lock String nem os Character Locks: permanecem verbatim, idênticos, no fim de cada prompt (imagem) e no fim de cada prompt de vídeo.
+4. Recontagem após a edição: todos os 20 de imagem dentro de 150–250 e os 20 de vídeo dentro de 120–200; reexecute a auto-checagem da skill (itens 1–8) nas versões expandidas.
+5. Grave os 2 arquivos integrais + `.opencode/work/sub/fase-1/2/report-2.md` (formato fixo) com a nova contagem por cena e a auto-checagem. Se a sandbox impedir escrita, entregue o conteúdo INTEGRAL dos 3 arquivos na resposta final (um bloco por arquivo, com o caminho).
+
+**Critérios de aceite:**
+- 20 prompts de imagem em 150–250 palavras; 20 de vídeo em 120–200 palavras (contagem do principal decide).
+- Style Lock verbatim idêntico nos 40; Character Locks verbatim onde o personagem aparece.
+- Nenhum vocabulário de key art/preset; nenhuma cena que sirva de capa de livro; cenas de pico mantêm a cadeia de captura.
+- Conteúdo criativo das cenas preservado (não reescrever do zero: expandir).
+- Só os 3 arquivos do recorte; sem imagens, código ou rotas.
+
+**Gates:** contagens dentro das faixas + auto-checagem 100% verde, registrados no relatório.
