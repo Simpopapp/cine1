@@ -1,0 +1,11 @@
+# roadmap-proj1-s1 — Fundação criativa (Fase 0, pacote 1)
+
+- [ ] Ler os 3 pilares centrais (project1.md, prd-project1.md, roadmap-proj1) e a letra da música.
+- [ ] Decidir (etapa 1 da skill): meio, tom, locações, personagens — declarado no roteiro.md.
+- [ ] Escrever Style Lock String (elementos do PRD central §4, trava anti-ilustração incluída).
+- [ ] Escrever Character Lock Strings (MC com presença de palco + recorrentes).
+- [ ] Roteirizar os 20 beats na ordem das seções musicais com progressão real.
+- [ ] Gravar `.opencode/work/producao/v1/roteiro.md` no formato de project1-s1.
+- [ ] Autochecagem de gates (3 itens do prd-project1-s1) e gravação de `report-1.md`.
+
+Próximo consumidor do trabalho: subagente da Fase 1 (prompts de imagem e vídeo). Não iniciar a Fase 1.

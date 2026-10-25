@@ -1,0 +1,21 @@
+# prd-project1-s1 — Fundação criativa (Fase 0, pacote 1)
+
+**Como executar o recorte:**
+1. Leia os 3 pilares centrais (no system prompt) e a letra da música em `project1.md` — as tags [Intro], [Verse], [Chorus] etc. são o esqueleto dos beats.
+2. Decida com esforço ostensivo (etapa 1 da skill nova-sessao-aka-cine): gênero, meio único (live-action fotorrealista, ponto 3 do eixo), tom emocional em 3 atos, locações 3–6, personagens 1–4.
+3. Escreva o Style Lock String (etapa 2 da skill) com as escolhas já fixadas no PRD central (seção 4): Alexa 35 + anamórficas vintage, 2.39:1, teal/âmbar, luz prática dura, 35mm halation, referência nominal, trava anti-ilustração. O bloco deve ser uma frase corrida única em inglês começando com "Style:".
+4. Escreva os Character Locks (etapa 3): etnia precisa, idade, rosto, cabelo, olhos, traço distintivo, figurino fixo com peças específicas, prop recorrente. Para o MC, inclua presença de palco (close-mic, sussurro íntimo na bridge, grito no finale).
+5. Roteirize os 20 beats (etapa 4) na ordem exata das seções da música conforme o PRD central (seção 2), com progressão dramática real entre eles.
+6. Grave tudo em `.opencode/work/producao/v1/roteiro.md` (formato em `project1-s1`).
+7. Grave o relatório `.opencode/work/sub/fase-0/1/report-1.md` no formato fixo.
+
+**Critérios de aceite:**
+- Logline + sinopse ~150 palavras + 3 atos presentes.
+- Style Lock: inglês, 60–120 palavras, contendo TODOS os elementos da seção 4 do PRD central (meio, câmera+lentes, razão de aspecto, paleta com hex, iluminação, textura/grão, referência nominal, trava anti-ilustração, mood). Verbatim-able: uma frase corrida, sem listas.
+- Cada Character Lock: 25–40 palavras, com etnia + idade + cabelo + olhos + figurino fixo.
+- 20 beats na ordem da música; nenhum beat genérico ("ele reflete") — cada um tem ação concreta, lugar, personagem e mudança vs. anterior.
+- Nenhum vocabulário de key art (hero shot, glowing aura, epic pose, ethereal) em locks ou beats.
+- Registro de fidelidade declarado = ponto 3, com justificativa.
+- Nenhuma outra ferramenta de produção usada: este pacote só escreve os 2 arquivos citados (roteiro.md + report-1.md). Não gera imagens, não cria código, não edita rotas.
+
+**Gates do pacote:** releia os 20 beats e confira: (a) correspondência 1:1 com a estrutura musical; (b) os locks contêm os elementos mínimos; (c) nenhuma cena serviria de capa de livro. Registre o resultado da autochecagem no relatório.
