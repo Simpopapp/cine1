@@ -1,1 +1,20 @@
-null
+# Roadmap — proj1 · Videoclipe "Cinematic Hip-Hop" (aka-cine v1)
+
+Precedência: escopo vem de `.opencode/project1.md`; o "como" vem de `.opencode/prd-project1.md`. N=1.
+
+- [ ] **Fase 0 — Fundação criativa (roteiro + locks)** — subagente `fundacao-roteiro` produz `.opencode/work/producao/v1/roteiro.md`: logline, sinopse, 20 beats na ordem da música (PRD §2/§3.2), Style Lock String, Character Locks, locações; registro de fidelidade = ponto 3.
+  - Gates: 20 beats em ordem musical; locks completos (meio+paleta+luz+textura+referência+mood+trava anti-ilustração); sem vocabulário de key art.
+  - Subagentes: fase-0/1 · reports: report-1.md
+- [ ] **Fase 1 — Prompts de imagem e vídeo** — subagente `roteirista-prompts` produz `prompts-imagem.md` (20×150–250 palavras, ordem fixa, locks verbatim) e `prompts-video.md` (20×10s, ~120–200 palavras) em `.opencode/work/producao/v1/`.
+  - Gates: Style Lock verbatim nos 20 finais; Character Locks verbatim onde presente; auditorias 6–8 registradas; teste "capa de livro" negativo em todos.
+  - Subagentes: fase-1/1 · reports: report-1.md
+- [ ] **Fase 2 — Geração das 20 imagens** — 4 subagentes de geração (lotes de 5 cenas cada, dono exclusivo por número) geram `src/assets/v1/c01..c20.png` via `imagegen--generate_image` (`premium.gemini`, 1920×1088), ≤4 por resposta.
+  - Gates: 20 PNGs válidos em disco (1920×1088); prompts idênticos aos da Fase 1; amostras conferidas pelo principal (fidelidade).
+  - Subagentes: fase-2/1,2,3,4 · reports: report-1..4.md
+- [ ] **Fase 3 — Dados e página** — subagente `frontend` implementa contratos B/C/D do PRD: `src/data/v1.ts`, `src/data/v1-video-prompts.ts`, `src/routes/resultados-v1.tsx` (grade 16:9, copiar individual/bloco, baixar individual/.zip), link em `src/routes/index.tsx`, head() com metadados únicos.
+  - Gates: build sem erros (`/tmp/observability/build-errors.log`); rota renderiza 20 cenas; imports todos resolvem; sem cores hardcoded (tokens semânticos).
+  - Subagentes: fase-3/1 · reports: report-1.md
+- [ ] **Fase 4 — Verificação e fechamento** — principal roda gates finais (build + Playwright em `/resultados-v1` com screenshot), atualiza este roadmap com provas, informa o monitor ("remix finalizado +fase N") e entrega ao usuário.
+  - Gates: build OK; screenshot confirma 20 imagens carregadas; relatório do monitor solicitado para a rodada.
+  - Subagentes: fase-4/1 (verificação Playwright, se delegável) · reports: report-1.md
+- Próximo remix (se a rodada terminar antes do fim): retomar na primeira fase não marcada `[x]`; estados parciais ficam anotados dentro de cada fase.
